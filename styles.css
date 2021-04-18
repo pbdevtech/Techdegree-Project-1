@@ -18,7 +18,7 @@ a {
   color: rgb(241, 237, 237);
 }
 a:hover {
-  color: #6633ff;
+  color: rgb(245, 171, 11);
 }
 
 /* Section Styles */
@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: rgb(247, 183, 8)
 }
 
 header {
@@ -65,7 +65,7 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
+header .profile-image {  
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -77,7 +77,7 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: #f7f5f0;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -85,8 +85,8 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #f7f5f0;
+  color: rgb(12, 12, 12);
 }
 .card {
   margin: 30px;
@@ -99,35 +99,30 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #e96c19;
+  border-color: rgb(247, 183, 8);
 }
-.card.projects {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: center;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
-
 ul.skills {
   padding: 0;
   text-align: center;
 }
 
+ul.experience {
+  padding: 0;
+  text-align: left;
+}
+
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: rgb(247, 183, 8);
+  color: rgb(12, 12, 12);
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #0c0c0c;
+  color: rgb(247, 183, 8);
 }
 
 footer {
