@@ -77,7 +77,15 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #f7f5f0;
+  background-color: rgba(12, 12, 12, 0.40);
+  color: rgb(245, 241, 241);
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+.page-title {  
+  background-color: rgba(247, 183, 8, 0.50);
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -85,8 +93,8 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #f7f5f0;
-  color: rgb(12, 12, 12);
+  background-color: rgba(15, 15, 15, 0.40);
+  color: rgb(250, 245, 245);
 }
 .card {
   margin: 30px;
@@ -94,6 +102,9 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: center;
   background: #fff;
+  border-top: 4px solid #ccc;
+  border-left: 4px solid #ccc;
+  border-right: 4px solid #ccc;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
